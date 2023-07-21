@@ -1,4 +1,4 @@
-package Harbour
+package harbour
 
 import (
 	"encoding/json"
