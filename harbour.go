@@ -8,7 +8,7 @@ import (
 )
 
 // nolint
-func ImportConfig(fileName string, structVar string) {
+func ImportConfig(fileName string, structVar struct) {
 	//open file to variable
 	file, err := os.Open(fileName)
 	if err != nil {
