@@ -7,9 +7,9 @@ import (
 	"os"
 )
 
-type structVar interface{}
+type structInterface interface{}
 
-func ImportConfig(fileName string, structVar structVar) {
+func ImportConfig(fileName string, structVar structInterface) {
 	//open file to variable
 	file, err := os.Open(fileName)
 	if err != nil {
